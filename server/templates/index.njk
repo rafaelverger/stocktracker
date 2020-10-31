@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>StockTracker 💲🐕</title>
+
+    {%- if assetsMap -%}
+      <link rel="stylesheet" type="text/css" href="{{ assetsMap.app.css }}">
+    {%- endif -%}
+  </head>
+  <body>
+    <div id="appRoot">{{appHtml|safe}}</div>
+    <script id="preloadedData" type="application/json">{{ preloadedData | safe}}</script>
+    {%- if devBundleJsPath -%}
+      <script src="{{ devBundleJsPath }}" async></script>
+    {%- endif -%}
+    {%- if assetsMap -%}
+      <script src="{{ assetsMap.app.js }}" async></script>
+    {%- endif -%}
+  </body>
+</html>
