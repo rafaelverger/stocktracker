@@ -1,0 +1,30 @@
+{
+  "name": "stocktracker",
+  "version": "0.0.1",
+  "description": "keep tracking of your stocks",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelverger/stocktracker.git"
+  },
+  "keywords": [
+    "stock",
+    "react",
+    "webapp",
+    "money"
+  ],
+  "author": "rafaelverger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelverger/stocktracker/issues"
+  },
+  "homepage": "https://github.com/rafaelverger/stocktracker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
