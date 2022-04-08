@@ -1,0 +1,9 @@
+{
+  "execMap": {
+    "js": "node",
+    "jsx": "./node_modules/.bin/jsx"
+  },
+  "ext": "js jsx json",
+  "watch": ["index.js", "server/"],
+  "verbose": true
+}
